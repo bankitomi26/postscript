@@ -26,8 +26,7 @@
 <body>
 
   <div class="overlay"></div>
-  <gif playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif" type="gif">
+  <gif <source src="img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif" type="gif">
   </gif>
 
   <div class="masthead">
