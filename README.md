@@ -26,7 +26,7 @@
 <body>
 
   <div class="overlay"></div>
-  <gif <source src="img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif" type="gif">
+  <gif src="img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif" type="gif">
   </gif>
 
   <div class="masthead">
