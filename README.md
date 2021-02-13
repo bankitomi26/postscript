@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Coming Soon Preview](img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif)](https://startbootstrap.github.io/startbootstrap-coming-soon/)
+[![Coming Soon Preview](img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif)](img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif/)
 
 **[View Live Preview](img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif/)**
 
