@@ -26,7 +26,7 @@
 <body>
 
   <div class="overlay"></div>
-    <source src="img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif" type="gif/img">
+    <source src="https://static.wixstatic.com/media/98c313_bc50689f861f49079ea492a9e351779c~mv2.gif" type="gif/img">
   
   <div class="masthead">
     <div class="masthead-bg"></div>
