@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Coming Soon Preview](https://assets.startbootstrap.com/img/screenshots/themes/coming-soon.png)](https://startbootstrap.github.io/startbootstrap-coming-soon/)
+[![Coming Soon Preview](img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif)](https://startbootstrap.github.io/startbootstrap-coming-soon/)
 
 **[View Live Preview](https://startbootstrap.github.io/startbootstrap-coming-soon/)**
 
