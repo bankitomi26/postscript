@@ -26,8 +26,10 @@
 <body>
 
   <div class="overlay"></div>
-    <source src="https://static.wixstatic.com/media/98c313_bc50689f861f49079ea492a9e351779c~mv2.gif" type="gif/img">
-  
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="mp4/bg.mp4" type="video/mp4">
+  </video>
+
   <div class="masthead">
     <div class="masthead-bg"></div>
     <div class="container h-100">
