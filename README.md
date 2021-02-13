@@ -26,10 +26,8 @@
 <body>
 
   <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif" type="gif/img">
-  </video>
-
+  
   <div class="masthead">
     <div class="masthead-bg"></div>
     <div class="container h-100">
