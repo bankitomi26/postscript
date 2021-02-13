@@ -1,83 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+# [Start Bootstrap - Coming Soon](https://startbootstrap.com/theme/coming-soon/)
 
-<head>
+[Coming Soon](https://startbootstrap.com/theme/coming-soon/) is a simple coming soon theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a background video with a mobile background image fallback.
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+## Preview
 
-  <title>Coming Soon - Start Bootstrap Theme</title>
+[![Coming Soon Preview](https://assets.startbootstrap.com/img/screenshots/themes/coming-soon.png)](https://startbootstrap.github.io/startbootstrap-coming-soon/)
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+**[View Live Preview](https://startbootstrap.github.io/startbootstrap-coming-soon/)**
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+## Status
 
-  <!-- Custom styles for this template -->
-  <link href="css/coming-soon.min.css" rel="stylesheet">
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-coming-soon/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-coming-soon.svg)](https://www.npmjs.com/package/startbootstrap-coming-soon)
+[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-coming-soon.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-coming-soon)
+[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-coming-soon/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-coming-soon)
+[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-coming-soon/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-coming-soon?type=dev)
 
-</head>
+## Download and Installation
 
-<body>
+To begin using this template, choose one of the following options to get started:
 
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif" type="gif/img">
-  </video>
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/coming-soon/)
+* Install via npm: `npm i startbootstrap-coming-soon`
+* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-coming-soon.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-coming-soon)
 
-  <div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-12 my-auto">
-          <div class="masthead-content text-white py-5 py-md-0">
-            <h1 class="mb-3">Coming Soon!</h1>
-            <p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
-              <strong>January 2022</strong>! Sign up for updates using the form below!</p>
-            <div class="input-group input-group-newsletter">
-              <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="submit-button">
-              <div class="input-group-append">
-                <button class="btn btn-secondary" type="button" id="submit-button">Notify Me!</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+## Usage
 
-  <div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
+### Basic Usage
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-  <!-- Custom scripts for this template -->
-  <script src="js/coming-soon.min.js"></script>
+### Advanced Usage
 
-</body>
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-</html>
+#### Gulp Tasks
+
+* `gulp` the default task that builds everything
+* `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
+* `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+* `gulp js` minifies the themes JS file
+* `gulp vendor` copies dependencies from node_modules to the vendor directory
+
+You must have npm installed globally in order to use this build environment.
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-coming-soon/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/coming-soon/).
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* <https://startbootstrap.com>
+* <https://twitter.com/SBootstrap>
+
+Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+
+* <https://davidmiller.io>
+* <https://twitter.com/davidmillerhere>
+* <https://github.com/davidtmiller>
+
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-coming-soon/blob/gh-pages/LICENSE) license.
