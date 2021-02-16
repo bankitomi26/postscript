@@ -1,6 +1,6 @@
-# [Start Bootstrap - Coming Soon](https://startbootstrap.com/theme/coming-soon/)
+# [Start Bootstrap - Coming Soon](https://bankitomi26.github.io/postscript/)
 
-[Coming Soon](https://startbootstrap.com/theme/coming-soon/) is a simple coming soon theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a background video with a mobile background image fallback.
+[Coming Soon](https://bankitomi26.github.io/postscript//) is a simple coming soon theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a background video with a mobile background image fallback.
 
 ## Preview
 
@@ -20,7 +20,7 @@
 
 To begin using this template, choose one of the following options to get started:
 
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/coming-soon/)
+* [Download the latest release on Start Bootstrap](https://bankitomi26.github.io/postscript//)
 * Install via npm: `npm i startbootstrap-coming-soon`
 * Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-coming-soon.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-coming-soon)
@@ -47,7 +47,7 @@ You must have npm installed globally in order to use this build environment.
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-coming-soon/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/coming-soon/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-coming-soon/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://bankitomi26.github.io/postscript//).
 
 ## About
 
