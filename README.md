@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Coming Soon Preview](https://assets.startbootstrap.com/img/screenshots/themes/coming-soon.png)](https://startbootstrap.github.io/startbootstrap-coming-soon/)
+[![Coming Soon Preview](https://assets.startbootstrap.com/img/screenshots/themes/coming-soon.png)](https://bankitomi26.github.io/postscript//)
 
 **[View Live Preview](https://startbootstrap.github.io/startbootstrap-coming-soon/)**
 
