@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Coming Soon Preview](mp4/ezgif.com-gif-maker (1).mp4)](https://bankitomi26.github.io/postscript//)
+[![Coming Soon Preview](img/98c313_bc50689f861f49079ea492a9e351779c_mv2.gif)](https://bankitomi26.github.io/postscript//)
 
 **[View Live Preview](https://bankitomi26.github.io/postscript/)**
 
