@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+
 clear
 clc
 a=imread('Image Compression using SVD/1.jpg');
@@ -44,3 +49,7 @@ xlabel('Approximation Rank k');
 ylabel('Compression Ratio');
 xlim([1 kmax])
 grid on
+
+</body>
+
+</html>
