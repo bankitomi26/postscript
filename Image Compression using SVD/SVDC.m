@@ -1,6 +1,6 @@
 clear
 clc
-a=imread('a.jpg');
+a=imread('Image Compression using SVD/1.jpg');
 [m,n,d]=size(a);
 kmax=floor((m*n)/(m+n+1));
 da=double(a);
