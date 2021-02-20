@@ -24,7 +24,7 @@ To calculate the percentage of space that we will use after compression just use
   The main diagonal of the matrix Σ consists of the square root of the non-zero eigenvalues, denominated as singular values, of ATA and AAT. A very common convention is to sort them downwards, the other elements of the matrix will be zeros.
   
 ## [Examples](/README.md#Examples)
-![escadaria-rio](/Image-Compression-using-SVD-master/teste.jpg)
+![escadaria-rio](/img/1.jpg)
 
 After compression using 100 singular values
 
