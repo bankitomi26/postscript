@@ -1,58 +1,46 @@
-<!DOCTYPE html>
-<html lang="hu">
+clear
+clc
+a=imread('a.jpg');
+[m,n,d]=size(a);
+kmax=floor((m*n)/(m+n+1));
+da=double(a);
+U=zeros(m,m);S=zeros(m,n);V=zeros(n,n);e=zeros(kmax,d);cr=zeros(kmax,1);rmse=zeros(kmax,d);
+for i=1:d
+    [U(:,:,i),S(:,:,i),V(:,:,i)]=svd(da(:,:,i));
+end
+for k=1:kmax
+    ca=zeros(m,n,d);
+    cr(k)=m*n/(k*(m+n+1));
+    for i=1:d
+        cai=zeros(m,n,d);
+        [ca(:,:,i),cai(:,:,i)]=deal(U(:,1:k,i)*S(1:k,1:k,i)*V(:,1:k,i)');
+        e(k,i)=S(k+1,k+1,i)/S(1,1,i);
+        rmse(k,i)=sqrt(sum(sum(((da(:,:,i)-ca(:,:,i)).^2)))/(m*n));
+        imwrite(uint8(cai), sprintf('%dk%d.jpg',k,i));
+    end
+    imwrite(uint8(ca), sprintf('%dk.jpg', k));
+end
+figure
+p=plot(1:kmax,e,'MarkerEdgeColor','r','MarkerEdgeColor','g');
+set(p,{'color'},{'red';'green';'blue'})
+xlabel('Approximation Rank k');
+ylabel('Relative 2-Norm');
+xlim([1 kmax])
+legend('Red','Green','Blue')
+grid on
 
-<head>
+figure
+p=plot(1:kmax,rmse,'MarkerEdgeColor','r','MarkerEdgeColor','g');
+set(p,{'color'},{'red';'green';'blue'})
+xlabel('Approximation Rank k');
+ylabel('RMS Erorr');
+xlim([1 kmax])
+legend('Red','Green','Blue')
+grid on
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="Bologne" content="https://bankitomi26.github.io/postscript/">
-  <meta name="BTK" content="https://bankitomi26.github.io/postscript/">
-
-  <title>Post-script au système de Bologne</title>
-  <!-- Favicon-->
-   <link rel="icon" type="image/x-icon" href="1.png" />
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/coming-soon.min.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="mp4/ezgif.com-gif-maker (1).mp4" type="video/mp4">
-  </video>
-
-  <div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-12 my-auto">
-          <div class="masthead-content text-white py-5 py-md-0">
-            <h1 class="mb-3">Coming Soon!</h1>
-            <p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
-              <strong>March 2021</strong>! Sign up for updates using the form below!</p>
-            <div class="input-group input-group-newsletter">
-              <div class="text-center mt-4">
-                                    <p class="mb-5">
-                    <a class="btn btn-xl btn-outline" href="https://mail.google.com/mail/u/0/#inbox">
-                              <button class="btn btn-secondary" type="button" id="submit-button">Notify me!</button>
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/coming-soon.min.js"></script>
-
-</body>
-
-</html>
+figure
+plot(1:kmax,cr);
+xlabel('Approximation Rank k');
+ylabel('Compression Ratio');
+xlim([1 kmax])
+grid on
